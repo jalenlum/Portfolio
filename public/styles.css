@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.study {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links {
+  font-size: 18px;
+  font-weight: 500;
+  transition: border-bottom 0.15s;
+  border-bottom: 3px solid rgb(30, 30, 30);
+  
+}
+
+.links:hover {
+  border-bottom: 3px solid rgb(255, 255, 255, 0.55);
+}
+
+.links:active {
+  opacity: 0.7;
+}
+
+
