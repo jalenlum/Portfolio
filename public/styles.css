@@ -27,9 +27,7 @@ body {
 .links {
   font-size: 18px;
   font-weight: 500;
-  transition: border-bottom 0.15s;
-  border-bottom: 3px solid rgb(30, 30, 30);
-  
+  border-bottom: 3px solid transparent;
 }
 
 .links:hover {
@@ -42,7 +40,27 @@ body {
 
 .test {
   background-color: rgba(255, 255, 255, 0.299);
+  border: 1px solid red;
+  height: 200px;
+}
+
+.test-column{
+  margin-top:80px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.299);
   border: 1px solid red
+}
+
+.introduction {
+  width: 50%;
+}
+
+.headshot {
+  height: 600px;
+}
+
+.home-info {
+  margin-top: 80px;
 }
 
 
