@@ -41,26 +41,20 @@ body {
 .test {
   background-color: rgba(255, 255, 255, 0.299);
   border: 1px solid red;
-  height: 200px;
-}
-
-.test-column{
-  margin-top:80px;
-  height: 500px;
-  background-color: rgba(255, 255, 255, 0.299);
-  border: 1px solid red
-}
-
-.introduction {
-  width: 50%;
+  margin-top: 145px;
+  height: 450px;
 }
 
 .headshot {
   height: 600px;
+  border-radius: 15px;
 }
 
 .home-info {
   margin-top: 80px;
 }
 
-
+.about-photo{
+  height: 450px;
+  border-radius: 15px;
+}

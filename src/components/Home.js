@@ -1,4 +1,4 @@
-export const Header = () =>{
+export const Home = () =>{
   return(
     <>
       <div class="container">
