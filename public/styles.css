@@ -14,18 +14,8 @@ body {
   overflow-y: scroll;
 }
 
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.study {
-  font-size: 18px;
-  font-weight: 500;
-}
-
 .links {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   border-bottom: 3px solid transparent;
 }
@@ -43,15 +33,6 @@ body {
   border: 1px solid red;
   margin-top: 145px;
   height: 450px;
-}
-
-.headshot {
-  height: 600px;
-  border-radius: 15px;
-}
-
-.home-info {
-  margin-top: 80px;
 }
 
 .about-photo{
