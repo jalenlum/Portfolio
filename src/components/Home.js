@@ -1,7 +1,7 @@
 export const Home = () =>{
   return(
     <>
-      <div class="container">
+      <div class="container" id="home">
         <div class="row justify-content-center" style={{marginTop:80}}>
           <div class="col align-self-center introduction">
             <h2 style={{fontSize:60}}>Hello! I'm Jalen Lum.</h2>
@@ -10,7 +10,7 @@ export const Home = () =>{
               at Ma&#773;noa.
             </p>
           </div>
-          <div class="col justify-content-center">
+          <div class="col d-flex justify-content-center">
             <img 
               src="./images/headshot.jpg" 
               alt="headshot photo" 
