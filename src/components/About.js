@@ -1,7 +1,7 @@
 export const About = () =>{
     return(
       <>
-        <div class="container">
+        <div class="container" id="about">
           <div class="row justify-content-center">
             <div class="col d-flex justify-content-center" style={{marginTop:150}}>
               <img 
@@ -10,7 +10,7 @@ export const About = () =>{
                 style={{height:450,borderRadius:15}}>
               </img>
             </div>
-            <div class="col-8" style={{marginTop:150}}>
+            <div class="col-7" style={{marginTop:150}}>
               <h1 style={{fontSize:60}}>About Me</h1>
               <p>
                 Hi! My name is Jalen Lum, and i'm currently pursuing my Bachelor's in Computer Science
