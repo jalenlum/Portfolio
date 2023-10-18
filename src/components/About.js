@@ -2,8 +2,8 @@ export const About = () =>{
     return(
       <>
         <div class="container" id="about">
-          <div class="row justify-content-center">
-            <div class="col d-flex justify-content-center" style={{marginTop:150}}>
+          <div class="row justify-content-center" style={{marginTop:150}}>
+            <div class="col d-flex justify-content-center">
               <img 
                 src="./images/headshot.jpg" 
                 alt="headshot photo"
