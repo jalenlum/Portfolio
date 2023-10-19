@@ -19,11 +19,11 @@ export const Navbar = () =>{
               <li className="nav-item">
                 <a href="#resume" className="nav-link links">Resume</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="#" className="nav-link links">Portfolio</a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a href="#" className="nav-link links">Contact</a>
+                <a href="#contact" className="nav-link links">Contact</a>
               </li>
             </ul>
           </div>

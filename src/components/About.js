@@ -7,10 +7,10 @@ export const About = () =>{
               <img 
                 src="./images/headshot.jpg" 
                 alt="headshot photo"
-                style={{height:450,borderRadius:15}}>
+                style={{height:450, borderRadius:15}}>
               </img>
             </div>
-            <div class="col-7" style={{marginTop:150}}>
+            <div class="col-7">
               <h1 style={{fontSize:60}}>About Me</h1>
               <p>
                 Hi! My name is Jalen Lum, and i'm currently pursuing my Bachelor's in Computer Science
