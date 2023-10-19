@@ -5,6 +5,7 @@
   text-decoration: none;
   background: transparent;
   font-family: "Poppins", sans-serif;
+  scroll-padding-top: 100px;
 }
 
 body {

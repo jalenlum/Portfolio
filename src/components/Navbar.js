@@ -11,7 +11,7 @@ export const Navbar = () =>{
           <div className="collapse navbar-collapse justify-content-center" id="nav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="#top" className="nav-link links">Home</a>
+                <a href="#home" className="nav-link links">Home</a>
               </li>
               <li className="nav-item">
                 <a href="#about" className="nav-link links">About</a>
