@@ -10,11 +10,18 @@ export const Contact = () => {
         <div className="col d-flex justify-content-center">
           <form action="https://backendform.com/sendform.php/808jalen@gmail.com" method="get">
             <label> name </label>
+            <br/>
             <input type="text" name="name" />
+            <br/>
             <label> email </label>
+            <br/>
             <input type="email" name="email" />
+            <br/>
             <label> message </label>
+            <br/>
             <input type="text" name="message" />
+            <br/>
+            <br/>
             <button type="submit"> Submit </button>
             <input type="hidden" name="Portfolio Website" value="jalenlum.com" />
             <input type="hidden" name="Jalen Lum" value="jalenlum.com" />
