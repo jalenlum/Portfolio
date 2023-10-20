@@ -6,7 +6,7 @@ export const About = () =>{
             <div class="col d-flex justify-content-center">
               <img 
                 src="images/about.jpg" 
-                alt="headshot photo"
+                alt="snow"
                 style={{height:450, borderRadius:15}}>
               </img>
             </div>
