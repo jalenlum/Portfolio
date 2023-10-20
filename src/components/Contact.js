@@ -18,8 +18,8 @@ export const Contact = () => {
             <input className="contact-text" placeholder="Your Message" type="text" name="message" style={{height:150, paddingBottom:115}}/>
             <br/>
             <button className="contact-button" type="submit"> Submit </button>
-            <input type="hidden" name="Portfolio Website" value="jalenlum.com" />
-            <input type="hidden" name="Jalen Lum" value="jalenlum.com" />
+            <input type="hidden" name="fromwebsite" value="Portfolio Website" />
+            <input type="hidden" name="redirect" value="jalenlum.com"/>
           </form>
         </div>
       </div>
