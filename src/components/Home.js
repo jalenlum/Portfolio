@@ -12,7 +12,7 @@ export const Home = () =>{
           </div>
           <div className="col-lg d-flex justify-content-center">
             <img 
-              src="./images/headshot.jpg" 
+              src="images/headshot.jpg" 
               alt="headshot photo" 
               style={{height:600, borderRadius:15}}>
             </img>
