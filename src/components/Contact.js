@@ -3,26 +3,21 @@ export const Contact = () => {
     <div className="container" id="contact">
       <div className="row justify-content-center" style={{marginTop:150}}>
         <div className="col text-center">
-          <h1 style={{fontSize:60}}>Contact</h1>
+          <h1 style={{fontSize:60}}>Contact Me</h1>
+          <br/>
+          <p>Feel free to reach out to me through this contact form.</p>
         </div>
       </div>
-      <div className="row justify-content-center" style={{marginTop:30}}>
-        <div className="col d-flex justify-content-center">
+      <div className="row justify-content-center">
+        <div className="col-9 text-center">
           <form action="https://backendform.com/sendform.php/808jalen@gmail.com" method="get">
-            <label> name </label>
+            <input className="contact-text" placeholder="Your Name" type="text" name="name" />
             <br/>
-            <input type="text" name="name" />
+            <input className="contact-text" placeholder="Your Email" type="email" name="email"/>
             <br/>
-            <label> email </label>
+            <input className="contact-text" placeholder="Your Message" type="text" name="message" style={{height:150, paddingBottom:115}}/>
             <br/>
-            <input type="email" name="email" />
-            <br/>
-            <label> message </label>
-            <br/>
-            <input type="text" name="message" />
-            <br/>
-            <br/>
-            <button type="submit"> Submit </button>
+            <button className="contact-button" type="submit"> Submit </button>
             <input type="hidden" name="Portfolio Website" value="jalenlum.com" />
             <input type="hidden" name="Jalen Lum" value="jalenlum.com" />
           </form>
