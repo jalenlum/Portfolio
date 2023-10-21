@@ -19,7 +19,7 @@ export const Contact = () => {
             <br/>
             <button className="contact-button" type="submit"> Submit </button>
             <input type="hidden" name="fromwebsite" value="Portfolio Website" />
-            <input type="hidden" name="redirect" value="jalenlum.com"/>
+            <input type="hidden" name="redirect" value="https://jalenlum.com/"/>
           </form>
         </div>
       </div>

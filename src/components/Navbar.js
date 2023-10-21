@@ -3,7 +3,7 @@ export const Navbar = () =>{
     <>
     <nav className="navbar fixed-top navbar-expand-md navbar-dark navbar-custom">
         <div className="container">
-          <a href="top" className="navbar-brand" style={{fontSize:30,fontWeight:600}}>JALEN</a>
+          <a href="https://jalenlum.com/" className="navbar-brand" style={{fontSize:30,fontWeight:600}}>JALEN</a>
           <button className="navbar-toggler" data-bs-toggle="collapse"
           data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
             <span className="navbar-toggler-icon"></span>
