@@ -10,7 +10,7 @@ export const Resume = () =>{
         <div className="row justify-content-center" style={{marginTop:30}}>
           <div className="col d-flex justify-content-center">
             <div className="embed-container">
-              <embed src="pdfs/resume.pdf#toolbar=0" type="" className="resume-pdf" style={{width:750, height:940}}/>
+              <embed src="pdfs/resume.pdf#toolbar=0" type="" className="embed-responsive" style={{width:750, height:940}}/>
             </div>
           </div>
         </div>
