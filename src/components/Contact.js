@@ -10,16 +10,16 @@ export const Contact = () => {
       </div>
       <div className="row justify-content-center">
         <div className="col-9 text-center">
-          <form action="https://backendform.com/sendform.php/808jalen@gmail.com" method="get">
+          <form action="https://api.backendform.com/sendform/808jalen@gmail.com" method="post">
             <input className="contact-text" placeholder="Your Name" type="text" name="name" />
             <br/>
             <input className="contact-text" placeholder="Your Email" type="email" name="email"/>
             <br/>
             <input className="contact-text" placeholder="Your Message" type="text" name="message" style={{height:150, paddingBottom:115}}/>
             <br/>
-            <button className="contact-button" type="submit"> Submit </button>
-            <input type="hidden" name="fromwebsite" value="Portfolio Website" />
-            <input type="hidden" name="redirect" value="https://jalenlum.com/"/>
+            <button className="contact-button" type="submit" style={{marginTop:35, marginBottom:100}}> Submit </button>
+            <input hidden type="text" name="from" value="Portfolio Website"></input>
+            <input hidden type="text" name="redirect" value = "https://jalenlum.com/"></input>
           </form>
         </div>
       </div>
